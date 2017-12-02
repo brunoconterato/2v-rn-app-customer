@@ -1,11 +1,9 @@
 import React, { Component } from 'react';
 import { Provider } from 'react-redux';
-import { createStore, applyMiddleware } from 'redux';
 import firebase from 'firebase';
-import ReduxThunk from 'redux-thunk';
 
 import Routes from './src/Routes';
-import reducers from './reducers';
+import { store } from './src/reducers';
 
 export default class App extends Component {
 	componentWillMount() {
@@ -18,13 +16,18 @@ export default class App extends Component {
 			storageBucket: 'enjoy2v.appspot.com',
 			messagingSenderId: '29340316842'
 		};
+		if (!firebase.apps.length) {
+			firebase.initializeApp(config);
+		}
 
-		firebase.initializeApp(config);
+		console.ignoredYellowBox = [
+			'Setting a timer',
+		];
 	}
 
 	render() {
 		return (
-			<Provider store={createStore(reducers, {}, applyMiddleware(ReduxThunk))}>
+			<Provider store={store}>
 				<Routes />
 			</Provider>
 		);
