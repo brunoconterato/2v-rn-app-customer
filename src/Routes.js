@@ -4,6 +4,8 @@ import { Router, Scene } from 'react-native-router-flux';
 import LoginScene from './components/LoginScene';
 import MapScene from './components/MapScene';
 
+import ProgramScene from './components/ProgramScene';
+
 export default class Routes extends Component {
     render() {
         return (

@@ -3,48 +3,39 @@ import { StyleSheet, View, TextInput, Text, TouchableOpacity } from 'react-nativ
 import { setSceneTitle, modifyStartLocation, modifyEndLocation } from '../actions/AppNavigationActions';
 import { connect } from 'react-redux';
 import MapView from 'react-native-maps';
-import { Actions } from 'react-native-router-flux';
-
+import { Actions } from 'react-native-router-flux'
 
 // import { MAP_STYLE } from '../../data/MapStyle';
 
-class MapContent extends Component {
+class ProgramContent extends Component {
     componentWillMount() {
-        this.props.setSceneTitle('V2');
+        this.props.setSceneTitle('Programação');
     }
 
     render() {
         return (
             <View style={styles.container}>
-                <View style={styles.destinyView}>
-                    <Text style={styles.text}>Local de partida</Text>
-                    <TextInput
-                        style={styles.textInput}
-                        onChangeText={(text) => this.props.modifyStartLocation({text})}
-                        text={this.props.startLocation}
-                    />
-                    <Text style={styles.text}>Local de chegada</Text>
-                    <TextInput
-                        style={styles.textInput}
-                        onChangeText={(text) => this.props.modifyEndLocation({text})}
-                        text={this.props.endLocation}
-                    />
-                </View>
-                <MapView
-                    style={styles.map}
-                    initialRegion={{
-                        latitude: -16.718470,
-                        longitude: -49.268932,
-                        latitudeDelta: 0.0922,
-                        longitudeDelta: 0.0421
-                    }}
-                    // customMapStyle={MAP_STYLE}
+                <Text style={styles.text}>Local de partida</Text>
+                <TextInput
+                    style={styles.textInput}
+                    onChangeText={(text) => this.props.modifyStartLocation({text})}
+                    text={this.props.startLocation}
                 />
-                {/* <View styles={{ zIndex: 2}}> */}
+                <Text style={styles.text}>Local de chegada</Text>
+                <TextInput
+                    style={styles.textInput}
+                    onChangeText={(text) => this.props.modifyEndLocation({text})}
+                    text={this.props.endLocation}
+                />
+                <Text style={styles.text}>Horário de chegada no destino</Text>
+                <TextInput
+                    style={styles.textInput}
+                    onChangeText={(text) => this.setState({text})}
+                    text={this.props.endLocation}
+                />
                 <TouchableOpacity style={styles.goButton} onPress={() => Actions.program()}>
                     <Text style={styles.buttonText}>Definir local</Text>
                 </TouchableOpacity>
-                {/* </View> */}
             </View>
         );
     }
@@ -61,20 +52,8 @@ const styles = StyleSheet.create({
         paddingHorizontal: 10,
         backgroundColor: 'white'
     },
-    destinyView: {
-        alignItems: 'stretch',
-        paddingHorizontal: 40
-    },
-    map: {
-        flex: 1,
-        zIndex: 0
-    },
     goButton: {
-        position: 'absolute',
-        bottom: 50,
-        left: 0,
-        right: 0,
-        zIndex: 1,
+        marginTop: 40,
         backgroundColor: 'green',
         paddingHorizontal: 50,
         paddingVertical: 20,
@@ -97,4 +76,4 @@ export default connect(mapStateToProps,
     setSceneTitle,
     modifyStartLocation,
     modifyEndLocation
-})(MapContent);
+})(ProgramContent);

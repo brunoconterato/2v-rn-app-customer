@@ -40,7 +40,7 @@ export const setSceneKey = (sceneKey) => ({
     payload: sceneKey
 });
 
-export const setScreenTitle = title => ({
+export const setSceneTitle = title => ({
     type: 'set_scene_title',
     payload: title
 });

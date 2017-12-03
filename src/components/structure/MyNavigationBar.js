@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { StyleSheet, View, TouchableOpacity, Image } from 'react-native';
+import { StyleSheet, View, TouchableOpacity, Image, Text } from 'react-native';
 import { connect } from 'react-redux';
 
 const menuIcon = require('../../images/menu-icon.png');
@@ -24,7 +24,7 @@ class MyNavigationBar extends Component {
                         </TouchableOpacity>
                     </View>
 
-                    <View style={styles.titleView}>{this.props.title}</View>
+                    <Text style={styles.titleView}>{this.props.title}</Text>
                 </View>
                 {this.props.children}
             {/* // </Image> */}
@@ -46,7 +46,12 @@ const styles = StyleSheet.create({
         justifyContent: 'space-between'
     },
     titleView: {
-
+        position: 'absolute',
+        top: 0,
+        bottom: 0,
+        right: 0,
+        left: 0,
+        color: 'white'
     },
     logotipo: {
         width: 105,
