@@ -57,8 +57,6 @@ export const modifyPassword = password => ({
 
 export const authenticateUser = (provider) => (
     dispatch => {
-        Actions.logged();
-        
         switch(provider) {
             case 'FACEBOOK':
                 return authenticateWithFacebook(dispatch);
@@ -161,6 +159,8 @@ const connectWithFirebaseDatabase = (dispatch, firebaseResult, provider) => {
 const authenticateUserSucess = (dispatch) => {
     dispatch({ type: AUTHENTICATE_USER_SUCCESS });
     dispatch({ type: LOG_IN_OUT, payload: true });
+
+    Actions.map();
 };
 
 const authenticateUserError = (error, dispatch) => {

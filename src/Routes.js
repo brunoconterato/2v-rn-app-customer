@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Router, Scene } from 'react-native-router-flux';
 
 import LoginScene from './components/LoginScene';
-import LoggedArea from './components/LoggedArea';
+import MapScene from './components/MapScene';
 
 export default class Routes extends Component {
     render() {
@@ -13,11 +13,13 @@ export default class Routes extends Component {
                         key='login'
                         component={LoginScene}
                         title='login'
+                        hideNavBar
                     />
                     <Scene
-                        key='logged'
-                        component={LoggedArea}
-                        title='login'
+                        key='map'
+                        component={MapScene}
+                        title='Mapa'
+                        hideNavBar
                     />
                 </Scene>
             </Router>
