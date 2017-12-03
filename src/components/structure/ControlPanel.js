@@ -111,7 +111,8 @@ const styles = StyleSheet.create({
 	backgroundImage: {
 		flex: 1,
 		width: null,
-		alignItems: 'center'
+		alignItems: 'center',
+		backgroundColor: '#2F80ED'
 	},
 	container: {
 		flex: 1,

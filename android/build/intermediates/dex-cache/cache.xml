@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.0.0_b69daf0a890f20140bdde9761332eed68d1a4996.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/exploded-aar/Enjoy2V/react-native-fbsdk/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="95bac0f1cbd2d4172a3b259c43bb56fc72430305">
+        <dex dex="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/pre-dexed/debug/Enjoy2V-react-native-fbsdk-unspecified_db5dad57d2c4e6b18f72828bd5542a5adee674d7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ppedrogyn/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_1a595abd016ccee65bcc8b863d51ef37483c2364.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.0.0_7566c4dbdec1ae952c9dbb28c43cb37ce8443c26.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_a7e305745bf2dcbf7fc8b18de35606cd79b66f7b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
+        <dex dex="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.3.0_d216955881661cbfec58eb45ce4089b165570a8d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.0.0_412a8bb5ee1a6ee67db6c632532c73bc7ce2908a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
+        <dex dex="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.3.0_1ea4550384230449bf6f88c8d3f0aa0336496ef5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
+        <dex dex="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.3.0_e895d80cf7335511e10c31fe4ca90722f9c5c7ad.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.0.0_00b2a244245b3c54e492a9dad70b7c7b303dc719.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
+        <dex dex="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.3.0_731ada72724161a8a0e7a06eab8bdf55842b597b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.0.0_0187b89b00ba946a0b6ac09acdaecc558188f382.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ppedrogyn/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-applinks/1.4.0/8ad21bf21784dacce5f2043afb97218cc377e835/bolts-applinks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/pre-dexed/debug/bolts-applinks-1.4.0_76a4ad2caffce43bb88aa36a0956000f5478f2f7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ppedrogyn/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.0/support-annotations-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/pre-dexed/debug/support-annotations-25.0.0_2b4c2d4afb3967dfdd4c913c165ab4b8d4b68fd2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/exploded-aar/com.android.support/customtabs/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="94ba691efc31bf53264db0716d9c9ec03843ea31">
+        <dex dex="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/pre-dexed/debug/com.android.support-customtabs-25.0.0_a9b88f516e7cc0f95b970680bfc6ea4a397b218f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.0.0_173c832036c965d104693f86f31b159fa5c0a616.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d5cbc9214ee567ea6ef56fb2707d48e58d240fc2">
+        <dex dex="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/pre-dexed/debug/com.facebook.android-facebook-android-sdk-4.22.1_76720c44c2502ca122be41d400ff9b533ea21b84.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.2.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="dd1d0d84da2cff18f741c63a9c3af7d9aa89fdd6">
+        <dex dex="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-10.2.4_24aa622842474fc113f4de6ffac507e6b997ca1a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
+        <dex dex="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.3.0_0955c0f35853f8a406c57791fd902aeb1462182c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/exploded-aar/Enjoy2V/react-native-maps/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="faeffeccccfec22b4771bc8fa02d44e352455fb1">
+        <dex dex="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/pre-dexed/debug/Enjoy2V-react-native-maps-unspecified_6b4612ccd1eef6ddb0127ec05fc20cf69cf55adb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
+        <dex dex="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.3.0_dbbe1b0aab952067dfa6a2a2627026a4beae935e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_915e572abbf12747c6d7a5d76de692d52cd54299.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ppedrogyn/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_a4ed632e2bf15a8a910966243020e31d87453f91.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_9f86b8321fa18d0b1c2f78940ce76e7c95ffcb95.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.2.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5803db663655ef5cb38c6bcb17ba326fdb9edfbd">
+        <dex dex="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-10.2.4_09a8bf3bcf0a6ffe0483e362e1429f43b652eb54.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_90d038fc75416a1a56f6f2528935d74509f71342.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_97119de5c51a0c48fe1c97451e9277e5df290364.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_e6fbc8b304ec6b3defbdcbd192d12d03934adf68.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ppedrogyn/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_5fb1e2a1ff2a0e580dd9bbbbefa95f7610fd086d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_ebfd07df1e769463213143097d2a65e5e390983d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.50.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f768861356f4cd8613da447181fd15c3f584f52d">
+        <dex dex="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.50.4_36ea8e6b11c86773e0948fda05729ee2c5ba578c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8a372c4191f80489770a231f7be4820b204b886a">
+        <dex dex="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-25.0.0_4999ecbd203e5c7a9df5a72508bdc2f6418c8dd2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.50.4/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_ed0cf74b3978cb7d945bf161175acaee5c3ab476.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ppedrogyn/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_b1d6d6b6df8a02adccac92d83946efb23edc65a3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ppedrogyn/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_abeeafa781a0ce2a469c842b2af9445b8b19e61e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.0.0_76a3756efafe5ccdca2fcd823272110395bc4ca9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.0.0_61626f7b68cffaca5717dec0b7e64de3d20c1ad4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ppedrogyn/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_4d5066248c58e011346a2813d9d1171730cd10b9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.0.0_fbde8df7e75f49c402e99095454831aa470583bd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.2.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9ed08fab37c3a572da1d9ed2bf2e36c8d3e2bc48">
+        <dex dex="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-10.2.4_4faab057c70937444d830b05b241610049d33ea5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/10.2.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6d0d5e86f5b7203834df01ed78ebfdd5cbf74d48">
+        <dex dex="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-10.2.4_d63d065c4b62a800015d4d04916e0a6419d16818.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ppedrogyn/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_c4edd967140cac07b095a8344de7aaa74d76c693.jar" />
+    </item>
+
+</items>

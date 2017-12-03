@@ -24,7 +24,7 @@ class LoginScene extends Component {
 		return (
 			// <Image style={styles.backgroundImage} source={backgroundImage}>
 				<View style={styles.container}>
-                    <StatusBar backgroundColor='#FE5E0E' />
+                    <StatusBar backgroundColor='#009FE3' />
 					<View style={styles.logoView}>
 						<Image
 							resizeMode="contain"
@@ -54,7 +54,7 @@ class LoginScene extends Component {
 							<View
 								style={{
 									flex: 1,
-									borderBottomColor: 'black',
+									borderBottomColor: '#FFF',
 									borderBottomWidth: 1
 								}}
 							/>
@@ -66,7 +66,7 @@ class LoginScene extends Component {
 							<View
 								style={{
 									flex: 1,
-									borderBottomColor: 'black',
+									borderBottomColor: '#FFF',
 									borderBottomWidth: 1
 								}}
 							/>
@@ -84,7 +84,7 @@ class LoginScene extends Component {
 							style={{ flexDirection: 'row' }}
 							onPress={() => Actions.loginEmail()}
 						>
-							<Text style={{ fontFamily: 'Montserrat-Light', fontSize: 16 }}>
+							<Text style={{ fontFamily: 'Montserrat-Light', fontSize: 16, color: '#FFF' }}>
 								Já tem cadastro? 
 							</Text>
 							
@@ -92,7 +92,8 @@ class LoginScene extends Component {
 								style={{
 									fontFamily: 'Montserrat-Medium',
 									fontSize: 16,
-									fontWeight: 'bold'
+									fontWeight: 'bold',
+									color: '#FFF'
 								}}
 							> Clique aqui.</Text>
 						</TouchableOpacity>
@@ -111,7 +112,8 @@ const styles = StyleSheet.create({
 	},
 	container: {
 		flex: 1,
-		alignItems: 'center'
+		alignItems: 'center',
+		backgroundColor: '#009FE3'
 	},
 	logoView: {
 		marginTop: 70,
@@ -136,7 +138,8 @@ const styles = StyleSheet.create({
 		alignItems: 'center',
 	},
 	orText: {
-		fontSize: 18
+		fontSize: 18,
+		color: '#FFF'
 	}
 });
 

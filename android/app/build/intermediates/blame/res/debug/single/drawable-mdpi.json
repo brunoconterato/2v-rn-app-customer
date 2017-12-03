@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/res/merged/debug/drawable-mdpi/node_modules_reactnativerouterflux_images_back_chevron.png",
+        "source": "/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/src/main/res/drawable-mdpi/node_modules_reactnativerouterflux_images_back_chevron.png"
+    },
+    {
+        "merged": "/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/res/merged/debug/drawable-mdpi/node_modules_reactnavigation_src_views_assets_backicon.png",
+        "source": "/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/src/main/res/drawable-mdpi/node_modules_reactnavigation_src_views_assets_backicon.png"
+    },
+    {
+        "merged": "/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/res/merged/debug/drawable-mdpi/src_images_entrarcomgoogle.png",
+        "source": "/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/src/main/res/drawable-mdpi/src_images_entrarcomgoogle.png"
+    },
+    {
+        "merged": "/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/res/merged/debug/drawable-mdpi/src_images_entrarcomface.png",
+        "source": "/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/src/main/res/drawable-mdpi/src_images_entrarcomface.png"
+    },
+    {
+        "merged": "/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/res/merged/debug/drawable-mdpi/node_modules_reactnativerouterflux_images_menu_burger.png",
+        "source": "/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/src/main/res/drawable-mdpi/node_modules_reactnativerouterflux_images_menu_burger.png"
+    },
+    {
+        "merged": "/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/res/merged/debug/drawable-mdpi/src_images_entrarcomemail.png",
+        "source": "/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/src/main/res/drawable-mdpi/src_images_entrarcomemail.png"
+    },
+    {
+        "merged": "/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/build/intermediates/res/merged/debug/drawable-mdpi/src_images_menuicon.png",
+        "source": "/Users/ppedrogyn/Documents/PROJETOS/REACT-NATIVE/2v-rn-app-customer/android/app/src/main/res/drawable-mdpi/src_images_menuicon.png"
+    }
+]

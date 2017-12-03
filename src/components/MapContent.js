@@ -4,6 +4,8 @@ import { setSceneTitle, modifyStartLocation, modifyEndLocation } from '../action
 import { connect } from 'react-redux';
 import MapView from 'react-native-maps';
 import { Actions } from 'react-native-router-flux';
+import { TextField } from 'react-native-material-textfield';
+
 
 
 // import { MAP_STYLE } from '../../data/MapStyle';
@@ -16,19 +18,29 @@ class MapContent extends Component {
     render() {
         return (
             <View style={styles.container}>
-                <View style={styles.destinyView}>
-                    <Text style={styles.text}>Local de partida</Text>
-                    <TextInput
-                        style={styles.textInput}
-                        onChangeText={(text) => this.props.modifyStartLocation(text)}
-                        value={this.props.startLocation}
-                    />
-                    <Text style={styles.text}>Local de chegada</Text>
-                    <TextInput
-                        style={styles.textInput}
-                        onChangeText={(text) => this.props.modifyEndLocation(text)}
-                        value={this.props.endLocation}
-                    />
+                <View style={{ padding: 20 }}>
+                    <View>
+                        <TextField 
+                            autoCapitalize='none' 
+                            autoComplete='none'
+                            label='Local de partida' 
+                            tintColor='#FFF'
+                            baseColor='#FFF'
+                            value={this.props.startLocation} 
+                            onChangeText={(text) => this.props.modifyStartLocation(text)} 
+                        />
+                    </View>
+                    <View>
+                        <TextField 
+                            autoCapitalize='none' 
+                            autoComplete='none'
+                            label='Local de chegada' 
+                            tintColor='#FFF' 
+                            baseColor='#FFF'
+                            value={this.props.endLocation} 
+                            onChangeText={(text) => this.props.modifyEndLocation(text)} 
+                        />
+                    </View>
                 </View>
                 <MapView
                     style={styles.map}
@@ -40,11 +52,11 @@ class MapContent extends Component {
                     }}
                     // customMapStyle={MAP_STYLE}
                 />
-                {/* <View styles={{ zIndex: 2}}> */}
-                <TouchableOpacity style={styles.goButton} onPress={() => Actions.program()}>
-                    <Text style={styles.buttonText}>Definir local</Text>
-                </TouchableOpacity>
-                {/* </View> */}
+                <View style={{alignItems: 'center'}}>
+                    <TouchableOpacity style={styles.goButton} onPress={() => Actions.program()}>
+                        <Text style={styles.buttonText}>Definir local</Text>
+                    </TouchableOpacity>
+                </View>
             </View>
         );
     }
@@ -53,13 +65,13 @@ class MapContent extends Component {
 const styles = StyleSheet.create({
     calloutContainer: {
         flex: 1,
-        width: 275 //Ao modificar width, tem que modificar no BubbleCallout tb
-                    //TODO: criar um arquivo de constantes
+        width: 275 
     },
     container: {
         flex: 1,
         paddingHorizontal: 10,
-        backgroundColor: 'white'
+        justifyContent: 'center',
+        backgroundColor: '#009FE3'
     },
     destinyView: {
         alignItems: 'stretch',
@@ -72,18 +84,17 @@ const styles = StyleSheet.create({
     goButton: {
         position: 'absolute',
         bottom: 50,
-        left: 0,
-        right: 0,
         zIndex: 1,
-        backgroundColor: 'green',
-        paddingHorizontal: 50,
-        paddingVertical: 20,
+        height: 40,
+        width: 250,
+        borderRadius: 4,
+        backgroundColor: '#F15A24',
         alignItems: 'center',
         justifyContent: 'center',
-        width: 200
     },
     buttonText: {
-        color: 'white'
+        color: 'white',
+        fontSize: 18
     }
 });
 
