@@ -21,10 +21,10 @@ export default (state = INITIAL_STATE, action) => {
             return { ...state, sceneTitle: action.payload };
 
         
-        case 'change_start_location':
-            return { ...state, startLocation: action.payload}
-        case 'change_end_location':
-            return { ...state, endLocation: action.payload}
+        case 'modify_start_location':
+            return { ...state, startLocation: action.payload };
+        case 'modify_end_location':
+            return { ...state, endLocation: action.payload };
 
         case 'go_to_logged_area':
             return { ...state, logged: true };

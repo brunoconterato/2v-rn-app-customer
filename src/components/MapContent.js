@@ -20,14 +20,14 @@ class MapContent extends Component {
                     <Text style={styles.text}>Local de partida</Text>
                     <TextInput
                         style={styles.textInput}
-                        onChangeText={(text) => this.props.modifyStartLocation({text})}
-                        text={this.props.startLocation}
+                        onChangeText={(text) => this.props.modifyStartLocation(text)}
+                        value={this.props.startLocation}
                     />
                     <Text style={styles.text}>Local de chegada</Text>
                     <TextInput
                         style={styles.textInput}
-                        onChangeText={(text) => this.props.modifyEndLocation({text})}
-                        text={this.props.endLocation}
+                        onChangeText={(text) => this.props.modifyEndLocation(text)}
+                        value={this.props.endLocation}
                     />
                 </View>
                 <MapView

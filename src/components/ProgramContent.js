@@ -19,19 +19,19 @@ class ProgramContent extends Component {
                 <TextInput
                     style={styles.textInput}
                     onChangeText={(text) => this.props.modifyStartLocation({text})}
-                    text={this.props.startLocation}
+                    value={this.props.startLocation}
                 />
                 <Text style={styles.text}>Local de chegada</Text>
                 <TextInput
                     style={styles.textInput}
                     onChangeText={(text) => this.props.modifyEndLocation({text})}
-                    text={this.props.endLocation}
+                    value={this.props.endLocation}
                 />
                 <Text style={styles.text}>Horário de chegada no destino</Text>
                 <TextInput
                     style={styles.textInput}
                     onChangeText={(text) => this.setState({text})}
-                    text={this.props.endLocation}
+                    value={this.props.endLocation}
                 />
                 <TouchableOpacity style={styles.goButton} onPress={() => Actions.program()}>
                     <Text style={styles.buttonText}>Definir local</Text>
