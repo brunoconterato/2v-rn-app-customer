@@ -59,69 +59,47 @@ class ControlPanel extends Component {
 				<View style={styles.whiteLine} />
 
 				<View style={styles.optionsMenu}>
-					{/* <TouchableOpacity onPress={() => Actions.interactionLevel()}>
+					<TouchableOpacity onPress={() => false}>
 						<View style={styles.optionRow}>
-							<Image source={meuAmbienteIcon} style={styles.optionIcon} />
-							<Text style={styles.optionText}>Meu ambiente</Text>
-						</View>
-					</TouchableOpacity>
-					
-					<TouchableOpacity onPress={() => Actions.questionScene()}>
-						<View style={styles.optionRow}>
-							<Image source={explorarPerguntasIcon} style={styles.optionIcon} />
-							<Text style={styles.optionText}>Explorar perguntas</Text>
+							<Text style={styles.optionText}>Perfil</Text>
+							<View style={styles.whiteLine} />
 						</View>
 					</TouchableOpacity>
 
 					<TouchableOpacity onPress={() => false}>
 						<View style={styles.optionRow}>
-							<Image source={minhasEstatisticasIcon} style={styles.optionIcon} />
-							<Text style={styles.optionText}>Minhas estatísticas</Text>
-						</View>
-					</TouchableOpacity>
-
-					<TouchableOpacity onPress={() => Actions.pointsStratum()}>
-						<View style={styles.optionRow}>
-							<Image source={extratoDePontosIcon} style={styles.optionIcon} />
-							<Text style={styles.optionText}>Extrato de pontos</Text>
-						</View>
-					</TouchableOpacity>
-
-					<TouchableOpacity onPress={() => Actions.rewardsCatalog()}>
-						<View style={styles.optionRow}>
-							<Image source={catalogoDeRecompensasIcon} style={styles.optionIcon} />
-							<Text style={styles.optionText}>Catálogo de recompensas</Text>
+							<Text style={styles.optionText}>Configurações</Text>
+							<View style={styles.whiteLine} />
 						</View>
 					</TouchableOpacity>
 
 					<TouchableOpacity onPress={() => false}>
 						<View style={styles.optionRow}>
-							<Image source={convidarAmigosIcon} style={styles.optionIcon} />
-							<Text style={styles.optionText}>Convidar amigos</Text>
+							<Text style={styles.optionText}>Agendamentos</Text>
+							<View style={styles.whiteLine} />
 						</View>
 					</TouchableOpacity>
 
 					<TouchableOpacity onPress={() => false}>
 						<View style={styles.optionRow}>
-							<Image source={ajudaIcon} style={styles.optionIcon} />
+							<Text style={styles.optionText}>Reservas</Text>
+							<View style={styles.whiteLine} />
+						</View>
+					</TouchableOpacity>
+
+					<TouchableOpacity onPress={() => false}>
+						<View style={styles.optionRow}>
+							<Text style={styles.optionText}>Histórico</Text>
+							<View style={styles.whiteLine} />
+						</View>
+					</TouchableOpacity>
+
+					<TouchableOpacity onPress={() => false}>
+						<View style={styles.optionRow}>
 							<Text style={styles.optionText}>Ajuda</Text>
+							<View style={styles.whiteLine} />
 						</View>
 					</TouchableOpacity>
-					
-					<TouchableOpacity onPress={() => Actions.notificationTester()}>
-						<View style={styles.optionRow}>
-							<Image source={notificationIcon} style={styles.optionIcon} />
-							<Text style={styles.optionText}>Testar notificações</Text>
-						</View>
-					</TouchableOpacity>
-
-					<TouchableOpacity onPress={() => this.props.signOut()}>
-						<View style={styles.optionRow}>
-							<Image source={logoutIcon} style={styles.optionIcon} />
-							<Text style={styles.optionText}>Sair</Text>
-						</View>
-					</TouchableOpacity> */}
-
 				</View>
 			{/* </Image> */}
 			</View>
@@ -156,9 +134,7 @@ const styles = StyleSheet.create({
 		borderColor: 'white',
 		borderWidth: 0.5,
 		alignSelf: 'stretch',
-		marginHorizontal: 10,
-		marginTop: 30,
-		marginBottom: 16
+		marginTop: 2
 	},
 	optionsMenu: {
 		flex: 1,
@@ -167,13 +143,13 @@ const styles = StyleSheet.create({
 	},
 	optionRow: {
 		alignSelf: 'stretch',
-		flexDirection: 'row',
-		marginBottom: 16
+		marginBottom: 8
 	},
 	optionText: {
 		fontFamily: 'Montserrat_Regular',
-		fontSize: 14,
-		color: 'white'
+		fontSize: 24,
+		color: 'white',
+		paddingLeft: 6
 	},
 	optionIcon: {
 		width: 18,
