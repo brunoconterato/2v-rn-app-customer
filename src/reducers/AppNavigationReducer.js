@@ -4,7 +4,10 @@ const INITIAL_STATE = {
     firstLaunch: false,
     logged: false,
     sceneTitle: '',
-    sceneKey: ''
+    sceneKey: '',
+
+    startLocation: '',
+    endLocation: ''
 };
 
 export default (state = INITIAL_STATE, action) => {
@@ -16,6 +19,12 @@ export default (state = INITIAL_STATE, action) => {
             return { ...state, sceneKey: action.payload };
         case 'set_scene_title':
             return { ...state, sceneTitle: action.payload };
+
+        
+        case 'change_start_location':
+            return { ...state, startLocation: action.payload}
+        case 'change_end_location':
+            return { ...state, endLocation: action.payload}
 
         case 'go_to_logged_area':
             return { ...state, logged: true };

@@ -21,6 +21,12 @@ export default class Routes extends Component {
                         title='Mapa'
                         hideNavBar
                     />
+                    <Scene
+                        key='program'
+                        component={ProgramScene}
+                        title='Programação'
+                        hideNavBar
+                    />
                 </Scene>
             </Router>
         );

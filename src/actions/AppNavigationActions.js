@@ -44,3 +44,13 @@ export const setScreenTitle = title => ({
     type: 'set_scene_title',
     payload: title
 });
+
+export const modifyStartLocation = (startLocation) => ({
+    type: 'modify_start_location',
+    payload: startLocation
+});
+
+export const modifyEndLocation = (endLocation) => ({
+    type: 'modify_end_location',
+    payload: endLocation
+});
